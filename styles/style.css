@@ -1,0 +1,497 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.contact-header {
+  padding-top: 57px;
+  padding-left: 144px;
+}
+
+.sub-title {
+  color: #5863E3;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0;
+}
+
+h1 {
+  color: #000;
+  font-weight: normal;
+  font-size: 49px;
+  line-height: 1;
+  margin: 7px 0 0 0;
+}
+
+.contact-form {
+  margin-left: 144px;
+  margin-top: 57px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.description-box, 
+.subject-box,
+.name-box,
+.email-box {
+  background: #F8F8F8;
+  border: 2px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.description-box::placeholder, 
+.subject-box::placeholder,
+.name-box::placeholder,
+.email-box::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  color: #99999A;
+  opacity: 1;
+}
+
+.description-box {
+  width: 756px;
+  height: 298px;
+  padding: 23px 21px;
+  resize: none;
+}
+
+.subject-box,
+.name-box,
+.email-box {
+  width: 370px;
+  height: 59px;
+  padding: 21px 19px;
+}
+
+.send-btn {
+  width: 370px;
+  height: 59px;
+  background: #5968F4;
+  border: none;
+  border-radius: 4px;
+  color: #FBFBFF;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.decorator-circle {
+  width: 68px;
+  height: 68px;
+  background: #5968F4;
+  border-radius: 50%;
+  position: absolute;
+  top: 602px;
+}
+
+.circle-1 {
+  left: 288px;
+}
+
+.circle-2 {
+  left: 681px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-3 {
+  left: 1075px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.decorator-circle i {
+  position: absolute;
+  top: 19px;
+  left: 14px;
+  width: 41px;
+  height: 29px;
+  color: #324189;
+  font-size: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-icon {
+  width: 45px;
+  height: auto;
+}
+
+.info-title {
+  position: absolute;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  color: #4E4D54;
+  margin: 0;
+  line-height: 100%;
+}
+
+.email-title {
+  width: 54px;
+  height: 23px;
+  top: 686px;
+  left: 296px;
+}
+
+.phone-title {
+  width: 62px;
+  height: 23px;
+  top: 686px;
+  left: 687px;
+}
+
+.location-title {
+  width: 84px;
+  height: 23px;
+  top: 686px;
+  left: 1086px;
+}
+
+.info-text {
+  position: absolute;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 15px;
+  color: #99999A;
+  margin: 0;
+  line-height: 100%;
+}
+
+.email-text-1 {
+  width: 183px;
+  height: 17px;
+  top: 717px;
+  left: 231px;
+}
+
+.email-text-2 {
+  width: 226px;
+  height: 17px;
+  top: 742px;
+  left: 210px;
+}
+
+.phone-text-1 {
+  width: 122px;
+  height: 17px;
+  top: 717px;
+  left: 659px;
+}
+
+.phone-text-2 {
+  width: 122px;
+  height: 17px;
+  top: 742px;
+  left: 659px;
+}
+
+.location-text-1 {
+  width: 163px;
+  height: 17px;
+  top: 717px;
+  left: 1032px;
+}
+
+.location-text-2 {
+  width: 188px;
+  height: 17px;
+  top: 742px;
+  left: 1019px;
+}
+
+.photos-section-title {
+  position: absolute;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 17px;
+  color: #5863E3;
+  margin: 0;
+  line-height: 100%;
+  width: 58px;
+  height: 20px;
+  top: 833px;
+  left: 144px;
+}
+
+.photos-main-title {
+  position: absolute;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 49px;
+  color: #000000;
+  margin: 0;
+  line-height: 100%;
+  width: 548px;
+  height: 112px;
+  top: 860px;
+  left: 144px;
+}
+
+.gallery-image {
+  position: absolute;
+  width: 373px;
+  height: 373px;
+  top: 1025px;
+  object-fit: cover;
+}
+
+.img-1 {
+  left: 61px;
+}
+
+.img-2 {
+  left: 533px;
+}
+
+.img-3 {
+  left: 1006px;
+}
+
+/* ფუტერი */
+.main-footer {
+  position: absolute;
+  width: 100%;
+  max-width: 1440px;
+  height: 372px;
+  top: 1437px;
+  left: 0;
+  background-color: #000000;
+}
+
+.footer-logo {
+  position: absolute;
+  width: 155px;
+  height: 30px;
+  top: 63px;
+  left: 143px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 26px;
+  color: #FFFFFF;
+  line-height: 100%;
+}
+
+.footer-about {
+  position: absolute;
+  width: 295px;
+  height: 80px;
+  top: 116px;
+  left: 143px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 17px;
+  color: #99999A;
+  line-height: 120%;
+  margin: 0;
+}
+
+/* ფუტერის სვეტების სათაურები */
+.footer-column-title {
+  position: absolute;
+  top: 63px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 21px;
+  color: #FFFFFF;
+  line-height: 100%;
+}
+
+.useful-links-title {
+  width: 108px;
+  height: 24px;
+  left: 629px;
+}
+
+.privacy-title {
+  width: 69px;
+  height: 24px;
+  left: 823px;
+}
+
+.contact-info-title {
+  width: 114px;
+  height: 24px;
+  left: 1016px;
+}
+
+/* ფუტერის ტექსტური ელემენტები (Useful links) */
+.footer-item {
+  position: absolute;
+  left: 629px;
+  height: 19px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5863E3;
+  line-height: 100%;
+}
+
+.item-blog {
+  width: 38px;
+  top: 119px;
+}
+
+.item-rooms {
+  width: 60px;
+  top: 147px;
+}
+
+.item-gift-card {
+  width: 80px;
+  top: 176px;
+}
+
+.item-testimonials {
+  width: 100px;
+  top: 204px;
+}
+
+/* საერთო სტილი ახალი ელემენტებისთვის ფუტერის შიგნით */
+.footer-item-privacy {
+  position: absolute;
+  left: 823px;
+  width: 65px;
+  height: 19px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5863E3;
+  line-height: 100%;
+}
+
+/* შესწორებული ტოპ-პოზიციები ფუტერის მიმართ */
+.item-career {
+  top: 119px; /* 1556px - 1437px */
+}
+
+.item-about-us {
+  top: 147px; /* 1584px - 1437px */
+}
+
+.item-contact-us {
+  top: 176px;
+  width: auto; /* 1613px - 1437px */
+}
+
+.item-services {
+  top: 204px; /* 1641px - 1437px */
+}
+
+/* ფუტერის FontAwesome იკონკების საერთო სტილი */
+.footer-icon {
+  position: absolute;
+  color: #324189;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ფუტერის სურათი-იკონკის (ტელეფონის) საერთო სტილი */
+.footer-icon-img {
+  position: absolute;
+}
+
+/* თითოეული იკონკის ინდივიდუალური პოზიციები და ზომები */
+.icon-email {
+  width: 21px;
+  height: 15px;
+  top: 123px; /* 1560px - 1437px */
+  left: 1016px;
+  font-size: 20px; /* ფონტის ზომა სიმაღლის შესაბამისად */
+}
+
+.icon-phone {
+  width: 27px;
+  height: 22px;
+  top: 153px; /* 1590px - 1437px */
+  left: 1012px;
+}
+
+.icon-location {
+  width: 13px;
+  height: 22px;
+  top: 193px; /* 1630px - 1437px */
+  left: 1023px;
+  font-size: 23px; /* ფონტის ზომა სიმაღლის შესაბამისად */
+}
+
+/* ფუტერის საკონტაქტო ტექსტების საერთო სტილი */
+.footer-contact-text {
+  position: absolute;
+  left: 1051px;
+  height: 19px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 17px;
+  color: #FFFFFF;
+  line-height: 100%;
+}
+
+/* თითოეული ტექსტის ინდივიდუალური პოზიციები და ზომები */
+.text-email {
+  width: 139px;
+  top: 119px; /* 1556px - 1437px */
+}
+
+.text-phone {
+  width: 144px;
+  top: 157px; /* 1594px - 1437px */
+}
+
+.text-location {
+  width: 213px;
+  top: 195px; /* 1632px - 1437px */
+}
+
+/* ფუტერის სოციალური იკონკების საერთო სტილი */
+.footer-social {
+  position: absolute;
+}
+
+/* თითოეული იკონკის ინდივიდუალური პოზიციები და ზომები */
+.icon-fb {
+  width: 75px;
+  height: 46px;
+  top: 219px; /* 1656px - 1437px */
+  left: 125px;
+  object-fit: contain;
+}
+
+.icon-twitter {
+  width: 40px;
+  height: 38px;
+  top: 223px; /* 1660px - 1437px */
+  left: 192px;
+  border-radius: 50%; /* აქცევს იკონკას იდეალურ წრედ */
+  object-fit: cover;
+}
+
+.icon-gmail {
+  width: 42px;
+  height: 42px;
+  top: 223px; /* 1660px - 1437px */
+  left: 237px;
+}
